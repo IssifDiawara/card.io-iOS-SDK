@@ -8,13 +8,13 @@
 
 import SwiftUI
 
-struct CardScannerView: UIViewControllerRepresentable {
+public struct CardScannerView: UIViewControllerRepresentable {
 
     let didProvide: ((CardIOCreditCardInfo) -> Void)
 
-    func updateUIViewController(_ uiViewController: CardIOPaymentViewController, context: Context) {}
+    public func updateUIViewController(_ uiViewController: CardIOPaymentViewController, context: Context) {}
 
-    func makeUIViewController(context: Context) -> CardIOPaymentViewController {
+    public func makeUIViewController(context: Context) -> CardIOPaymentViewController {
         let viewController = CardIOPaymentViewController(paymentDelegate: context.coordinator) ?? CardIOPaymentViewController()
         viewController.hideCardIOLogo = true
         viewController.suppressScannedCardImage = true
@@ -23,13 +23,13 @@ struct CardScannerView: UIViewControllerRepresentable {
         return viewController
     }
 
-    func makeCoordinator() -> Coordinator {
+    public func makeCoordinator() -> Coordinator {
         Coordinator(self)
     }
 
 }
 
-extension CardScannerView {
+public extension CardScannerView {
 
     class Coordinator: NSObject, CardIOPaymentViewControllerDelegate {
 
@@ -39,11 +39,11 @@ extension CardScannerView {
             self.scanner = scanner
         }
 
-        func userDidCancel(_ paymentViewController: CardIOPaymentViewController!) {
+        public func userDidCancel(_ paymentViewController: CardIOPaymentViewController!) {
             paymentViewController?.dismiss(animated: true, completion: nil)
         }
 
-        func userDidProvide(_ cardInfo: CardIOCreditCardInfo!, in paymentViewController: CardIOPaymentViewController!) {
+        public func userDidProvide(_ cardInfo: CardIOCreditCardInfo!, in paymentViewController: CardIOPaymentViewController!) {
             guard let cardInfo else {
                 paymentViewController?.dismiss(animated: true, completion: nil)
                 return
