@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "9b4e23d0e7072faf67ccedc6b475a45474dc2a8f",
+  "iOS" : [
+    {
+      "name" : "Scanner",
+      "hash" : "fcdd87ea90bf0f9685d3373aa92af8b5a3b90b92bc1995e03f308d282e08faf5",
+      "linking" : "dynamic"
+    }
+  ]
+}
