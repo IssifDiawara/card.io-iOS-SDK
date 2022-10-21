@@ -7,8 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B9F428D2902ED76001C8E7F /* CardScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F428C2902ED76001C8E7F /* CardScannerView.swift */; };
+		2B9F428F2902EEF5001C8E7F /* Scanner-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9F428E2902EEDB001C8E7F /* Scanner-Bridging-Header.h */; };
+		2B9F429D2902F209001C8E7F /* CardIODetectionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9F42912902F209001C8E7F /* CardIODetectionMode.h */; };
+		2B9F429E2902F209001C8E7F /* CardIOUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9F42922902F209001C8E7F /* CardIOUtilities.h */; };
+		2B9F429F2902F209001C8E7F /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9F42932902F209001C8E7F /* libopencv_core.a */; };
+		2B9F42A02902F209001C8E7F /* SampleApp-Swift-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9F42942902F209001C8E7F /* SampleApp-Swift-Bridging-Header.h */; };
+		2B9F42A12902F209001C8E7F /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9F42952902F209001C8E7F /* libCardIO.a */; };
+		2B9F42A22902F209001C8E7F /* CardIOView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9F42962902F209001C8E7F /* CardIOView.h */; };
+		2B9F42A32902F209001C8E7F /* CardIOPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9F42972902F209001C8E7F /* CardIOPaymentViewController.h */; };
+		2B9F42A42902F209001C8E7F /* CardIOViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9F42982902F209001C8E7F /* CardIOViewDelegate.h */; };
+		2B9F42A52902F209001C8E7F /* CardIOCreditCardInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9F42992902F209001C8E7F /* CardIOCreditCardInfo.h */; };
+		2B9F42A62902F209001C8E7F /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9F429A2902F209001C8E7F /* libopencv_imgproc.a */; };
+		2B9F42A72902F209001C8E7F /* CardIOPaymentViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9F429B2902F209001C8E7F /* CardIOPaymentViewControllerDelegate.h */; };
+		2B9F42A82902F209001C8E7F /* CardIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9F429C2902F209001C8E7F /* CardIO.h */; };
 		2BD42DF229019CA1001FE74B /* Scanner.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2BD42DF129019CA1001FE74B /* Scanner.docc */; };
-		2BD42DF329019CA1001FE74B /* Scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD42DF029019CA1001FE74B /* Scanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BD42DF329019CA1001FE74B /* Scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD42DF029019CA1001FE74B /* Scanner.h */; };
 		2BD42DF629019CA1001FE74B /* Scanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD42DEE29019CA1001FE74B /* Scanner.framework */; };
 		2BD42DF829019CA1001FE74B /* Scanner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD42DEE29019CA1001FE74B /* Scanner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2BD42DFC29019CCF001FE74B /* CardIO.h in Headers */ = {isa = PBXBuildFile; fileRef = D534F1F11A324F97003C3AB4 /* CardIO.h */; };
@@ -63,6 +77,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2B9F428C2902ED76001C8E7F /* CardScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScannerView.swift; sourceTree = "<group>"; };
+		2B9F428E2902EEDB001C8E7F /* Scanner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scanner-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B9F42912902F209001C8E7F /* CardIODetectionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIODetectionMode.h; sourceTree = "<group>"; };
+		2B9F42922902F209001C8E7F /* CardIOUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOUtilities.h; sourceTree = "<group>"; };
+		2B9F42932902F209001C8E7F /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core.a; sourceTree = "<group>"; };
+		2B9F42942902F209001C8E7F /* SampleApp-Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SampleApp-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B9F42952902F209001C8E7F /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO.a; sourceTree = "<group>"; };
+		2B9F42962902F209001C8E7F /* CardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOView.h; sourceTree = "<group>"; };
+		2B9F42972902F209001C8E7F /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewController.h; sourceTree = "<group>"; };
+		2B9F42982902F209001C8E7F /* CardIOViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOViewDelegate.h; sourceTree = "<group>"; };
+		2B9F42992902F209001C8E7F /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
+		2B9F429A2902F209001C8E7F /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc.a; sourceTree = "<group>"; };
+		2B9F429B2902F209001C8E7F /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
+		2B9F429C2902F209001C8E7F /* CardIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIO.h; sourceTree = "<group>"; };
 		2BD42DEE29019CA1001FE74B /* Scanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Scanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD42DF029019CA1001FE74B /* Scanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
 		2BD42DF129019CA1001FE74B /* Scanner.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Scanner.docc; sourceTree = "<group>"; };
@@ -97,6 +125,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9F429F2902F209001C8E7F /* libopencv_core.a in Frameworks */,
+				2B9F42A12902F209001C8E7F /* libCardIO.a in Frameworks */,
+				2B9F42A62902F209001C8E7F /* libopencv_imgproc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,11 +160,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2B9F42902902F209001C8E7F /* CardIO */ = {
+			isa = PBXGroup;
+			children = (
+				2B9F42912902F209001C8E7F /* CardIODetectionMode.h */,
+				2B9F42922902F209001C8E7F /* CardIOUtilities.h */,
+				2B9F42932902F209001C8E7F /* libopencv_core.a */,
+				2B9F42942902F209001C8E7F /* SampleApp-Swift-Bridging-Header.h */,
+				2B9F42952902F209001C8E7F /* libCardIO.a */,
+				2B9F42962902F209001C8E7F /* CardIOView.h */,
+				2B9F42972902F209001C8E7F /* CardIOPaymentViewController.h */,
+				2B9F42982902F209001C8E7F /* CardIOViewDelegate.h */,
+				2B9F42992902F209001C8E7F /* CardIOCreditCardInfo.h */,
+				2B9F429A2902F209001C8E7F /* libopencv_imgproc.a */,
+				2B9F429B2902F209001C8E7F /* CardIOPaymentViewControllerDelegate.h */,
+				2B9F429C2902F209001C8E7F /* CardIO.h */,
+			);
+			path = CardIO;
+			sourceTree = "<group>";
+		};
 		2BD42DEF29019CA1001FE74B /* Scanner */ = {
 			isa = PBXGroup;
 			children = (
+				2B9F42902902F209001C8E7F /* CardIO */,
 				2BD42DF029019CA1001FE74B /* Scanner.h */,
 				2BD42DF129019CA1001FE74B /* Scanner.docc */,
+				2B9F428C2902ED76001C8E7F /* CardScannerView.swift */,
+				2B9F428E2902EEDB001C8E7F /* Scanner-Bridging-Header.h */,
 			);
 			path = Scanner;
 			sourceTree = "<group>";
@@ -228,14 +281,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BD42DFF29019CD5001FE74B /* CardIOPaymentViewController.h in Headers */,
+				2B9F428F2902EEF5001C8E7F /* Scanner-Bridging-Header.h in Headers */,
+				2B9F42A42902F209001C8E7F /* CardIOViewDelegate.h in Headers */,
+				2B9F42A72902F209001C8E7F /* CardIOPaymentViewControllerDelegate.h in Headers */,
+				2B9F429D2902F209001C8E7F /* CardIODetectionMode.h in Headers */,
 				2BD42DFC29019CCF001FE74B /* CardIO.h in Headers */,
 				2BD42E0529019CE5001FE74B /* CardIOView.h in Headers */,
+				2B9F42A22902F209001C8E7F /* CardIOView.h in Headers */,
+				2B9F429E2902F209001C8E7F /* CardIOUtilities.h in Headers */,
+				2BD42DF329019CA1001FE74B /* Scanner.h in Headers */,
 				2BD42E0229019CE5001FE74B /* CardIOViewDelegate.h in Headers */,
+				2B9F42A02902F209001C8E7F /* SampleApp-Swift-Bridging-Header.h in Headers */,
+				2B9F42A32902F209001C8E7F /* CardIOPaymentViewController.h in Headers */,
 				2BD42DFE29019CD5001FE74B /* CardIODetectionMode.h in Headers */,
 				2BD42E0129019CE5001FE74B /* CardIOPaymentViewControllerDelegate.h in Headers */,
-				2BD42DF329019CA1001FE74B /* Scanner.h in Headers */,
 				2BD42DFD29019CD5001FE74B /* CardIOCreditCardInfo.h in Headers */,
 				2BD42E0029019CE5001FE74B /* CardIOUtilities.h in Headers */,
+				2B9F42A82902F209001C8E7F /* CardIO.h in Headers */,
+				2B9F42A52902F209001C8E7F /* CardIOCreditCardInfo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BD42DF229019CA1001FE74B /* Scanner.docc in Sources */,
+				2B9F428D2902ED76001C8E7F /* CardScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +498,7 @@
 		2BD42DFA29019CA2001FE74B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -466,6 +531,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Scanner/CardIO",
+				);
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -477,16 +546,22 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Scanner/Scanner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WARNING_CFLAGS = (
+					"-Xcc",
+					"-Wno-error=non-modular-include-in-framework-module",
+				);
 			};
 			name = Debug;
 		};
 		2BD42DFB29019CA2001FE74B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -519,6 +594,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Scanner/CardIO",
+				);
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.unifymcd.Scanner;
@@ -528,11 +607,16 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Scanner/Scanner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WARNING_CFLAGS = (
+					"-Xcc",
+					"-Wno-error=non-modular-include-in-framework-module",
+				);
 			};
 			name = Release;
 		};
@@ -652,6 +736,7 @@
 		D534F1E11A324F64003C3AB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "SampleApp-Swift/Info.plist";
@@ -675,6 +760,7 @@
 		D534F1E21A324F64003C3AB4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "SampleApp-Swift/Info.plist";
