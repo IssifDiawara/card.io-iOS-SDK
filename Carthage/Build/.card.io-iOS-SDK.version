@@ -8,10 +8,10 @@
   "tvOS" : [
 
   ],
-  "commitish" : "6ec82a05a1e801520a647b5c2e2489bddd4cd40a",
+  "commitish" : "32c441204d8477e9dada662df508e50ce72a20b6",
   "iOS" : [
     {
-      "hash" : "c881887341dc9ce50a7db75600e456dc9ad6b95745cb1184cf893f1832970df0",
+      "hash" : "28ad8a41b9f7382760d2c51dc703084851d471728fa21b728866570c8fd0dc57",
       "name" : "Scanner",
       "linking" : "dynamic",
       "swiftToolchainVersion" : "5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"

@@ -10,7 +10,11 @@ import SwiftUI
 
 public struct CardScannerView: UIViewControllerRepresentable {
 
-    let didProvide: ((CardIOCreditCardInfo) -> Void)
+    public let didProvide: ((CardIOCreditCardInfo) -> Void)
+
+    public init(didProvide: @escaping (CardIOCreditCardInfo) -> Void) {
+        self.didProvide = didProvide
+    }
 
     public func updateUIViewController(_ uiViewController: CardIOPaymentViewController, context: Context) {}
 
