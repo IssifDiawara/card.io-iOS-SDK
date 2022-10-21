@@ -1,6 +1,4 @@
 framework module Scanner {
-  umbrella header "Scanner.h"
-
-  export *
-  module * { export * }
+  header "Scanner-Swift.h"
+  requires objc
 }
