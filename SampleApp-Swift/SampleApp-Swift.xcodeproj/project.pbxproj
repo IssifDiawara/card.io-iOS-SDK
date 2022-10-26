@@ -540,7 +540,7 @@
 				MTL_FAST_MATH = YES;
 				OTHER_LDFLAGS = (
 					"-lc++",
-					"-ObjC",
+					"-l\"CardIO\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = fr.unifymcd.Scanner;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -606,7 +606,7 @@
 				MTL_FAST_MATH = YES;
 				OTHER_LDFLAGS = (
 					"-lc++",
-					"-ObjC",
+					"-l\"CardIO\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = fr.unifymcd.Scanner;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
