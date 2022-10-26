@@ -12,7 +12,7 @@
 		2B9F429D2902F209001C8E7F /* CardIODetectionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9F42912902F209001C8E7F /* CardIODetectionMode.h */; };
 		2B9F429E2902F209001C8E7F /* CardIOUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9F42922902F209001C8E7F /* CardIOUtilities.h */; };
 		2B9F429F2902F209001C8E7F /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9F42932902F209001C8E7F /* libopencv_core.a */; };
-		2B9F42A02902F209001C8E7F /* SampleApp-Swift-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9F42942902F209001C8E7F /* SampleApp-Swift-Bridging-Header.h */; };
+		2B9F42A02902F209001C8E7F /* SampleApp-Swift-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9F42942902F209001C8E7F /* SampleApp-Swift-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B9F42A12902F209001C8E7F /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9F42952902F209001C8E7F /* libCardIO.a */; };
 		2B9F42A22902F209001C8E7F /* CardIOView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9F42962902F209001C8E7F /* CardIOView.h */; };
 		2B9F42A32902F209001C8E7F /* CardIOPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9F42972902F209001C8E7F /* CardIOPaymentViewController.h */; };
@@ -280,6 +280,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9F42A02902F209001C8E7F /* SampleApp-Swift-Bridging-Header.h in Headers */,
 				2BD42DFF29019CD5001FE74B /* CardIOPaymentViewController.h in Headers */,
 				2B9F428F2902EEF5001C8E7F /* Scanner-Bridging-Header.h in Headers */,
 				2B9F42A42902F209001C8E7F /* CardIOViewDelegate.h in Headers */,
@@ -291,7 +292,6 @@
 				2B9F429E2902F209001C8E7F /* CardIOUtilities.h in Headers */,
 				2BD42DF329019CA1001FE74B /* Scanner.h in Headers */,
 				2BD42E0229019CE5001FE74B /* CardIOViewDelegate.h in Headers */,
-				2B9F42A02902F209001C8E7F /* SampleApp-Swift-Bridging-Header.h in Headers */,
 				2B9F42A32902F209001C8E7F /* CardIOPaymentViewController.h in Headers */,
 				2BD42DFE29019CD5001FE74B /* CardIODetectionMode.h in Headers */,
 				2BD42E0129019CE5001FE74B /* CardIOPaymentViewControllerDelegate.h in Headers */,
